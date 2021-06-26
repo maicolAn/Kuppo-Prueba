@@ -47,9 +47,9 @@ img#icono-bogota{
   height: 40px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .siteHeader{
-    width: 200%;
+    width: 190%;
   }
   
 }

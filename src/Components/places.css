@@ -166,16 +166,16 @@ div#places{
       left: 680px;
     }
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     div#places{
       width: 650px;
       margin-left: 0px;
     }
     .cajas-place-1, .cajas-place-medio, .cajas-place-ultimo{
-      width: 300px;
+      width: 295px;
     }
     .boton-add-places{
-      left: 630px;
+      left: 620px;
     }
     .locationIcon1{
       left: 50px;
