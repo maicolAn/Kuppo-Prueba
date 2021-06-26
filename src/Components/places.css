@@ -1,0 +1,196 @@
+div#places{
+    float: left;
+    width: 650px;    
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+.cajas-place-1{
+    width: 310px;
+    height: 225px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    border: #E0E0E0 1px solid;
+    border-radius: 25px;
+    float: left;
+    overflow: hidden;
+  }
+  .cajas-place-medio{
+    margin-left: 35px;
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    border: #E0E0E0 1px solid;
+    border-radius: 20px;
+    float: left;
+    overflow: hidden;
+  }
+  .cajas-place-ultimo{
+    margin-left: 35px;
+    width: 300px;
+    height: 140px;
+    margin-top: 20px;
+    border: #E0E0E0 1px solid;
+    border-radius: 20px 25px 25px 20px;
+    float: left;
+    overflow: hidden;
+    
+  }
+  .boton-add-places{
+    height: 140px;
+    width: 50px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #34348c;
+    border-radius: 25px;
+    border: #2c2c7a 1px solid ;
+    z-index: 2;
+    left: 930px;
+}
+.cajas-place-1 .places{
+    margin: -150px;
+  }
+  .places{
+    width: 100%;
+    border-radius: 20px;
+    z-index: 1;
+    
+  }
+  .cajas-place-ultimo .places2{
+    margin: -300px;
+  }
+  .places2{
+    position: relative;
+    width: 100%; 
+    z-index: 1;
+    border-radius: 20px;
+    
+  }
+  .titulos-places{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    float: left;
+  }
+  div#reviews{
+    font-size: 15px;
+    float: left;
+    margin: 0;
+    margin-left: 160px;
+    
+    color: grey;
+  }
+  img#reviews{
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .reviews-margen {
+    display: grid;
+    grid-template-columns: 180px 32px 32px 32px 32px;
+    grid-template-rows: 35px;
+  }
+  .tipolugar1,
+  .tipolugar2,
+  .tipolugar3{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    left: 360px;
+    margin-top: 10px;
+  }
+  .nombrelugar1,
+  .nombrelugar2,
+  .nombrelugar3{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    z-index: 2;
+    left: 360px;
+    margin-top: 25px;
+  }
+  .tipolugar2{
+    left: 700px;
+  }
+  .nombrelugar2{
+    left: 700px;
+    margin-top: 25px;
+  }
+  .tipolugar3{
+    left: 700px;
+  }
+  .nombrelugar3{
+    left: 700px;
+    margin-top: 25px;
+  }
+
+  .locationIcon1,
+  .locationIcon2 {
+    position: absolute;
+    max-width: 3%;
+    filter: invert(0.9);
+  }
+  .locationIcon1{
+    left: 330px;
+    margin-top: 5px;
+  }
+  .locationIcon2{
+    left: 670px;
+    margin-top: 5px;
+    z-index: 3;
+  }
+  @media screen and (max-width: 1036px) {
+    .locationIcon1{
+      left: 100px;
+    }
+    .nombrelugar1, .tipolugar1{
+      left: 125px;
+    }
+    .nombrelugar2, .tipolugar2,.nombrelugar3, .tipolugar3{
+      left: 460px;
+    }
+    .locationIcon2{
+      left: 440px;
+    }
+    .boton-add-places{
+      left: 680px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    div#places{
+      width: 650px;
+      margin-left: 0px;
+    }
+    .cajas-place-1, .cajas-place-medio, .cajas-place-ultimo{
+      width: 300px;
+    }
+    .boton-add-places{
+      left: 630px;
+    }
+    .locationIcon1{
+      left: 50px;
+      
+    }
+    .nombrelugar1, .tipolugar1{
+      left: 65px;
+    }
+    .nombrelugar2, .tipolugar2,.nombrelugar3, .tipolugar3{
+      left: 405px;
+      font-size: 10px;
+      width: 60px;
+
+    }
+    .locationIcon2{
+      left: 440px;
+    }
+  }

@@ -1,0 +1,157 @@
+div#locations{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 29px;
+    
+}
+
+.caja-location{
+    width: 100%;
+    height: 100px;
+    border: #E0E0E0 1px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #E0E0E0;
+}
+div#nubes{
+    width: 70px;
+    height: 70px; 
+    margin: 0;
+    background-color: #dcecf4;
+    float: left;
+    border-radius: 15px;
+    border: #E0E0E0 1px solid;
+    align-content: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+  }
+  img#icono{
+    margin-top: 10px;
+    margin-left: 10px; 
+    float: left;
+  }
+  div#caja-temp{
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  .text-temp{
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 0;
+    float: left;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: 500;
+    color: black;
+  }
+  sup{
+    font-size: 12px;
+  }
+  div#ciudad{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 15px;   
+    float: left;
+    border-left: 1px solid #E0E0E0;
+  }
+  p#ciudad{
+    font-size: 20px;
+    margin: 0;
+    margin-left: 15px;
+  }
+  p#pais{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 15px;
+    text-align: left;
+    padding: 0;  
+  }
+  div#datos-city{
+    width: 100%;
+    height: 29px;
+    float: left;
+    
+  }
+  a#datos{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 8px;
+    text-align: left;
+    float: left;
+  }
+  div#caja-add-location{
+    width: 100%;
+    height: 155px;
+    margin-top: 20px;
+    border: #E0E0E0 2px solid;
+    border-radius: 15px;
+    border-style: dashed;
+  }
+  .addLocationsText {
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 10px;
+    color: rgb(49, 50, 140);
+  }
+  div#add-location{
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #E0E0E0;
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  img#location{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  @media screen and (max-width: 1036px) {
+    div#locations{
+      position: absolute;
+      left: 40%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    div#locations{
+      position: absolute;
+      left: 300px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    div#locations{
+      position: absolute;
+      left: 300px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    div#locations{
+      position: absolute;
+      left: 340px;
+    }
+  }
+  @media screen and (max-width: 1365px) {
+    div#locations{
+      float: left;
+      width: 280px;
+      margin-left: 15px;
+    } 
+    img#icono{
+      margin: 0%;
+    }
+  }

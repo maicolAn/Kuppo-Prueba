@@ -1,0 +1,65 @@
+div#forcast{
+    float: left;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+  }
+  
+  .cajas-forecast{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border: #E0E0E0 1px solid;
+    border-radius: 15px;
+  
+  }
+  img#icono{
+    margin-top: 5px;
+    margin-left: 10px; 
+    float: left;
+  }
+  div#cajas-dias{
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  div#caja-temp-dia{
+    width: 70px;
+    height: 100%; 
+    margin: 0;
+    background-color: #dcecf4;
+    float: right;
+    border-radius: 15px;
+    border: #E0E0E0 1px solid;
+    align-content: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+  }
+  p#dias{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    
+    float: left;
+  }
+  p#estado{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 10px;
+    text-align: left;
+    padding: 0;  
+    
+  }
+  .titulos{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
